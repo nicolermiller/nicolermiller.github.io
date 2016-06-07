@@ -1,0 +1,9 @@
+.centered {
+   margin: 0 auto;
+}
+
+#map {
+      background-color: grey;
+       width: 500px;
+       height: 400px;
+     }
