@@ -1,22 +1,24 @@
-.centered {
-   margin: 0 auto;
+ body {
+  padding: 0;
+  border: none;
+  font-style: italic;
+  text-align: center;
+  height: 100%;
+  background-color: grey ;
+  color: black;
+  text-align: center;
+
 }
 
-body {
-	margin-top: 50px;
-	font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
-	font-size: 16px;
-	background-color: #acac86;
-}
 
 #map {
-       width: 500px;
-       height: 400px;
-       padding 200px;
-       margin-top: 200px;
-
-     }
-     /* Move down content because we have a fixed navbar that is 50px tall */
-     body {
-       padding-bottom: 2rem;
-     }
+  color:black;
+  width: 500px;
+  height: 400px;
+  padding 200px;
+  margin-top: 100px;
+  margin-bottom:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
