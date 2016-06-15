@@ -1,10 +1,4 @@
-/* COLOUR REFERENCES
 
-Green:		#79b044
-Salmon:		#dd5638
-Blue Gray:  #3e4249
-
-*/
 
 /* ==== GENERAL ==== */
 
@@ -15,6 +9,9 @@ body {
 }
 
 
+.jumbotron-heading {
+  font-weight: 100px;
+}
 
 /* ==== GLOBAL ==== */
 
@@ -31,14 +28,12 @@ h1 {
 h1,h2 {
 	margin: 0 0 40px;
 }
-/*
+
 h3 {
 	margin: 20px 0;
 }
 
-h4 {
-	font-size: 18px;
-}*/
+
 
 p.lead {
 	font-weight: normal;
@@ -48,30 +43,17 @@ p {
 	margin: 0 0 15px;
 }
 
-a:link, a:visited {
-	color: #dd5638;
-}
-
-a:hover {
-	text-decoration: none;
-	color: #c9302c;
-}
-
-img {
-	max-width: 100%;
-}
 
 
 /* Nav/Hero /*Web Developer/Desinger logo*/
-#head {
-  text-align: center;
-	vertical-align: middle;
-	margin-bottom:10px
-}
 
 
 #hero {
-	background: url('../img/notebook-computer-chill-relax-medium.jpg') 50% 0 repeat fixed;
+	text-align: center;
+	font-style: italic;
+	font-weight: lighter;
+	font-size: 20px;
+	background-color: grey;
 	min-height: 500px;
 	position: relative;
 	display: table;
@@ -82,16 +64,8 @@ img {
 	text-rendering: optimizelegibility;
 }
 
-.img-circular{
- width: 200px;
- height: 200px;
- background-image: url('assests/img/Me.jpg');
- background-size: cover;
- display: block;
-}
-#hero .hero-text {
-	margin-top: 30px;
-}
+
+
 
 
 /* Layout*/
@@ -121,12 +95,14 @@ section h2 {
 }
 
 
-footer {
-	background: #3e4247;
-	color: white;
-	padding: 20px 0 10px;
-	font-size: 12px;
+.footer {
+	position: relative;
+	width: 700px;
+	margin: 0 auto;
+
 }
+
+
 
 
 
