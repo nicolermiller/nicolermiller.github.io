@@ -61,23 +61,29 @@
 
 		    <div id="content" class="col-sm-3">
 
-          <form method="post" name="myemailform" action="form-to-email.php">
+          <!DOCTYPE html>
+  <html>
+  <body>
 
-  Enter Name: <input type="text" name="name">
+  <h2>Have a Question?</h2>
 
-  Enter Email Address:    <input type="text" name="email">
-
-  Enter Message:  <textarea name="message"></textarea>
-
-  <input type="submit" value="Send Form">
+  <form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
+  Name:<br>
+  <input type="text" name="name" value="your name"><br>
+  E-mail:<br>
+  <input type="text" name="mail" value="your email"><br>
+  Comment:<br>
+  <input type="text" name="comment" value="your comment" size="50"><br><br>
+  <input type="submit" value="Send">
+  <input type="reset" value="Reset">
   </form>
 
-		    </div><!-- content -->
+  </body>
+  </html>
 
-	    </div><!-- primary -->
-    </div><!-- container -->
-	<!--End Content-->
 
+
+<hr>
 
    <!--Footer-->
    <footer class="left">
