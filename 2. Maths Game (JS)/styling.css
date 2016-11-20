@@ -23,7 +23,7 @@ html{
 
 #score{
     background-color: #F1FF92;
-    color: #888E5F;
+    color: ##f44245;
     padding: 11px;
     position: absolute;
     left: 500px;
@@ -67,7 +67,7 @@ html{
 #instruction{
     width: 450px;
     height: 50px;
-    background-color: #B481D9;
+    background-color: ##f44245;
     margin: 10px auto;
     text-align: center;
     line-height: 45px;
