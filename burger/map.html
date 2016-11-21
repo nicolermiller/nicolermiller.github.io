@@ -8,20 +8,13 @@
 </head>
 
 <body>
-  <!--Header-->
-
-     <div class="jumbotron">
-      <div class="container">
-        <h1 class="display-3">Alert!</h1>
-        <p>Locating near you...</p>
-      </div>
-    </div>
-  <!--End Header-->
+  <h1>  Nearest Burger Place</h1>
+  <p id="burgerplace"></p>
 
 
 
   <div id="map"></div>
-
+</body>
 
 <script>
 
@@ -53,7 +46,7 @@ function showPosition(position) {
        location:  {lat: pos.lat, lng: pos.lng},
        radius: '500',
        types: ['food'],
-       query: 'burger'
+       query: 'Burger'
      };
 
    var service = new google.maps.places.PlacesService(map);
@@ -61,7 +54,7 @@ function showPosition(position) {
 
    function callback(results, status) {
     console.log(results[0].name)
-    document.getElementById("burger").innerHTML = results[0].name;
+    document.getElementById("burgerplace").innerHTML = results[0].name;
 
      var latBurger = results[0].geometry.location.lat()
      var lngBurger = results[0].geometry.location.lng()
@@ -88,15 +81,6 @@ function showPosition(position) {
 
 
 <script src="https://maps.googleapis.com/maps/api/js?libraries=places&callback=initMap" async defer></script>
-
-
-
-<!--Footer-->
-<footer>
-<p>Copyright &copy; 2016 Nicole Renee Miller</p>
-</footer>
-<!--End Footer-->
-
 
 </body>
 </html>
